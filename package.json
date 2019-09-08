@@ -1,5 +1,5 @@
 {
-  "name": "fitbitapp",
+  "name": "HelpingHand",
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",
@@ -10,7 +10,7 @@
   "fitbit": {
     "appUUID": "dce827d1-f294-4a7b-8234-b4feab22f8e3",
     "appType": "app",
-    "appDisplayName": "fitbitapp",
+    "appDisplayName": "HelpingHand",
     "iconFile": "resources/icon.png",
     "wipeColor": "#ffffff",
     "requestedPermissions": [
