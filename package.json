@@ -1,0 +1,39 @@
+{
+  "name": "fitbitapp",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "^3.1.2",
+    "@fitbit/sdk-cli": "^1.6.3"
+  },
+  "fitbit": {
+    "appUUID": "dce827d1-f294-4a7b-8234-b4feab22f8e3",
+    "appType": "app",
+    "appDisplayName": "fitbitapp",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "browserify": "^16.5.0",
+    "firebase": "^6.6.0",
+    "firebase-admin": "^8.5.0"
+  }
+}

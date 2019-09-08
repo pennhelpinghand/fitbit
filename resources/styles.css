@@ -1,0 +1,9 @@
+.sensor-data {
+  font-family: System-Light;
+  fill: #ffb6c1;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 35;
+  x: 50%;
+  y: 90%;
+}
